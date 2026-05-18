@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Secure Ecommerce FMCG Goods Agency (SEFGA) - Disclaimer",
   description: "Disclaimer for SEFGA ecommerce procurement assistance.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
