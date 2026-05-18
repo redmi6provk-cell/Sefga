@@ -205,8 +205,12 @@ export default function Home() {
         <LiquidGlass className="glass-nav z-50 mx-auto w-full max-w-[1200px] md:sticky md:top-3">
           <header className="flex items-center justify-between gap-3 px-4 py-2.5 text-left sm:px-8 md:px-20 md:py-3">
             <div className="flex shrink-0 items-center gap-3 md:gap-5">
-              <span className="hidden h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-[#bfc9d1] to-[#91c9ff] text-base font-bold text-white shadow-lg sm:flex md:h-11 md:w-11 md:text-lg">
-                S
+              <span className="hidden h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-white/70 shadow-lg ring-1 ring-white/70 sm:flex md:h-11 md:w-11">
+                <img
+                  src="/favicon.ico"
+                  alt="SEFGA"
+                  className="h-full w-full object-cover"
+                />
               </span>
               <p className="text-xl font-semibold tracking-[0.08em] text-[#111827] md:text-2xl">
                 SEFGA
@@ -436,8 +440,12 @@ export default function Home() {
                 {/* Brand Statement Column */}
                 <div className="lg:col-span-7 space-y-4">
                   <div className="flex items-center gap-3">
-                    <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-tr from-[#bfc9d1] to-[#91c9ff] text-white font-bold text-lg shadow-lg">
-                      S
+                    <span className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-xl bg-white/70 shadow-lg ring-1 ring-white/70">
+                      <img
+                        src="/favicon.ico"
+                        alt="SEFGA"
+                        className="h-full w-full object-cover"
+                      />
                     </span>
                     <p className="text-4xl font-bold tracking-[0.05em] text-[#0b1220]">
                       SEFGA
