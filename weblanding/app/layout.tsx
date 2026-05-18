@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: "Secure Ecommerce FMCG Goods Agency (SEFGA) - Disclaimer",
   description: "Disclaimer for SEFGA ecommerce procurement assistance.",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/favicon.ico?v=sefga",
+    shortcut: "/favicon.ico?v=sefga",
   },
 };
 
